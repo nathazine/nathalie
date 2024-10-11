@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Clothing Shop</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Natalie.
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="ri-home-line"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">
+                                <i class="ri-price-tag-3-line"></i>
+                                <span>New</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#collection" class="nav__link">
+                                <i class="ri-compass-line"></i>
+                                <span>Collection</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">
+                                <i class="ri-t-shirt-line"></i>
+                                <span>Products</span>
+                            </a>
+                        </li>
+                        <div class="nav__cart">
+                            <a href="cart.html" class="cart-icon">
+                                <i class="ri-shopping-cart-line"></i>
+                                <span id="cart-count" class="cart-count">0</span> <!-- Cart count -->
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+            </nav>
+        </header>
+
+        Products
+
+          <!--==================== PRODUCTS ====================-->
+          <section class="products section" id="products">
+            <h2 class="section__title">
+               Men's Aesthetic
+            </h2>
+        
+            <div class="products__container container swiper">
+                <div class="swiper-wrapper">
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/men1.jpg" alt="product image" class="products__img">
+        
+                        <h2 class="products__title">
+                            Cable Knit Windbreaker
+                        </h2>
+                        <span class="products__price">
+                          Ksh  3,799
+                        </span>
+                        <a href="#" class="button__link add-to-cart" id="add-to-cart-1">
+                            Add to Cart <i class="ri-shopping-cart-line"></i>
+                        </a>
+                    </article>
+        
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/men2.jpg" alt="product image" class="products__img">
+        
+                        <h2 class="products__title">
+                            Vintage Cargo Jeans
+                        </h2>
+                        <span class="products__price">
+                            Ksh 2,799
+                        </span>
+                        <a href="#" class="button__link add-to-cart" id="add-to-cart-1">
+                            Add to Cart <i class="ri-shopping-cart-line"></i>
+                        </a>
+                    </article>
+        
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/men3.jpg" alt="product image" class="products__img">
+        
+                        <h2 class="products__title">
+                            Graphic Cap Vintage
+                        </h2>
+                        <span class="products__price">
+                            Ksh 3,499
+                        </span>
+                        <a href="#" class="button__link add-to-cart" id="add-to-cart-1">
+                            Add to Cart <i class="ri-shopping-cart-line"></i>
+                        </a>
+                    </article>
+        
+                    <article class="products__card swiper-slide">
+                        <img src="assets/img/men4.jpg" alt="product image" class="products__img">
+        
+                        <h2 class="products__title">
+                            Nike TC 7900
+                        </h2>
+                        <span class="products__price">
+                            Ksh 2,699
+                        </span>
+                        <a href="#" class="button__link add-to-cart" id="add-to-cart-1">
+                            Add to Cart <i class="ri-shopping-cart-line"></i>
+                        </a>
+                    </article>
+                </div>
+        
+                <div class="swiper-button-next">
+                    <i class="ri-arrow-right-line"></i>
+                </div>
+        
+                <div class="swiper-button-prev">
+                    <i class="ri-arrow-left-line"></i>
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        Shop.
+                    </a>
+                    
+                    <p class="footer__description">
+                        Committed to bringing you the <br> 
+                        best clothing from popular <br>
+                        brands.
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            Company
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Shop</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Category</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Contact info</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Blog
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Events</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Popular news</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Recent news</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Office
+                        </h3>
+
+                        <p class="footer__information">
+                            Monday - Saturday <br>
+                            9AM - 10PM
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Contact us
+                        </h3>
+
+                        <ul class="footer__social">
+                            <!-- Insert your name from your facebook page -->
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <!-- Insert your name from your instagram page -->
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <!-- Insert a real number plus country code -->
+                            <a href="https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!" target="_blank" class="footer__social-link">
+                                <i class="ri-whatsapp-line"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; Copyright. All rigths reserved
+                </span>
+
+                <a href="#" class="footer__privacy">
+                    Terms & Conditions
+                </a>
+            </div>
+        </footer>
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+        
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>

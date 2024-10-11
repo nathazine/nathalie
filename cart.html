@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        Natalie.
+      </a>
+    </nav>
+  </header>
+
+  <section class="cart section">
+    <h2 class="section__title">
+      Your Cart
+    </h2>
+    <div class="cart__container container">
+      <ul class="cart__list">
+        <!-- Cart items will be displayed here -->
+      </ul>
+    </div>
+  </section>
+  <p class="total-cost">Total: Ksh: <span id="total-cost"></span></p>
+ <!--- <button class="checkout-button">Checkout with M-Pesa</button>-->
+<!-- Add a input field for the user to enter their mobile number -->
+<input type="tel" id="mobile-number" placeholder="Enter your mobile number">
+<button class="checkout-button" onclick="checkout()">Checkout with M-Pesa</button>
+
+<!-- Add a script tag to define the checkout function -->
+<script>
+  function checkout() {
+    // Get the mobile number from the input field
+    const mobileNumber = document.getElementById('mobile-number').value;
+
+    // Check if the mobile number is valid (in this case, we're just checking if it's not empty)
+    if (mobileNumber !== '') {
+      // Show a popup message
+      alert(`Your order is being processed to ${mobileNumber}.`);
+
+      // Redirect to thanks.html
+      window.location.href='thanks.html';
+    } else {
+      alert('Please enter your mobile number.');
+    }
+  }
+</script>
+  <script src="assets/js/cart.js"></script>
+</body>
+</html>
